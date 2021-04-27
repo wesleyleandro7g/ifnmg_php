@@ -1,0 +1,94 @@
+header {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #ff99dd;
+}
+
+.header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #fff;
+
+  text-transform: uppercase;
+}
+
+.header .menu {
+  width: 15%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu .categories {
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+}
+.header .menu .categories:hover {
+  transition: 200ms all;
+  color: #cc0088;
+}
+.header .menu h2 {
+  font-size: 24px;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  height: 84vh;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #ffe6f7;
+}
+.content {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+
+  text-align: center;
+}
+.container .content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .content form input {
+  width: 80%;
+  height: 40px;
+
+  margin: 5px 0;
+}
+
+.container .content form .submit {
+  width: 81%;
+  height: 40px;
+
+  background-color: #ff99dd;
+  color: #fff;
+
+  text-transform: uppercase;
+
+  border: none;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: #cc0088;
+
+  margin: 15px 0;
+}
